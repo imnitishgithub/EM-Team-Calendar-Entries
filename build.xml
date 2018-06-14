@@ -1,0 +1,8 @@
+<project name="EM-Team-Calendar-Entries" default="info">
+<target name="info">
+<exec executable="bin\bash">
+<arg value="caldatafetch_em_nitish.sh"/>
+<arg value="/tmp"/>
+</exec>
+</target>
+</project>
